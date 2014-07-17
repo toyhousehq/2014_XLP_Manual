@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+html{-webkit-text-size-adjust:none;} /* 禁用iPhone中Safari的字号自动调整 */
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+body,th,td,input,select,textarea,button {font-size:12px;line-height:1 ;font-family:"微软雅黑", "黑体","宋体";color:#666} /* 重置页面文字属性 */
+a{text-decoration:none;outline:none;color:#333;}
+a:hover{color:#c00;text-decoration:underline;}
+address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}  /* 重置样式标签的样式 */
+dl,ul,ol,menu,li {list-style:none} 
+ul {overflow:hidden;width: 100%;}
+img{vertical-align:top}  /* 图片在当前行内的垂直位置 */
+fieldset,img {border:0 none}  /* 重置fieldset（表单分组）、图片的边框为0*/ 
+table {width:100%;border-collapse:collapse;border-spacing:0;table-layout:fixed;}    /* 重置table属性 */
+textarea { resize:none; } /*禁用了文本的拖拉，尤其在谷歌下*/
+p{ text-align:justify; text-justify:distribute;word-wrap:break-word} /*为了使文本段落左右两边对齐*/
+input,select,textarea,button {vertical-align:middle}  /* 重置表单控件垂直居中*/
+button, input, select, textarea {font-size:100%; outline:none;}
+frameset{padding:0px;margin:0px;border:none;}
+frame,iframe{width:100%;padding:0px;margin:0px;border:none;}
+
+
+
+
+

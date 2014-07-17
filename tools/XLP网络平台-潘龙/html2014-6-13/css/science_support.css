@@ -1,0 +1,5 @@
+@charset "utf-8";
+/* CSS Document */
+.support_top{ text-align:right;color:#666; vertical-align:top;padding:5% 10px;}
+.support_top strong{font-weight:normal;font-size:22px;line-height:45px}
+.support_top a{width:217px; height:44px; overflow:hidden;line-height:44px;}

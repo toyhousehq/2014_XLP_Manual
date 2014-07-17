@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+.clearfix:after {content: ".";display: block;height: 0;clear: both;visibility: hidden;zoom:1;}
+.clear{clear:both;}
+.hidden{display:none;}
+.block{display:block;}
+.content{background:#F9F9F8;color:#000;}
+.wra{width:1000px; margin:0px auto;}
+
+.lf{float:left;} 
+.rt{float:right;}
+
+.red ,.red a{ color:#F00;} 
+.blue ,.blue a{ color:#1E51A2;}  
+ 
+.pt5{padding-top:5px;} 
+.pt10{padding-top:10px;} 
+.pb5{padding-bottom:5px;} 
+.pl10{padding-left:10px;} 
+.pl20{padding-left:20px;} 
+
+.center{ text-align:center !important;}
+.left{ text-align:left !important}
+
+/*当前位置*/
+.current_position{height:60px; line-height:60px; background:#333;color:#fff; z-index:1;}
+.current_position p{width:1000px; margin:0px auto;font-size:16px;}
+.current_position p em{width:20px; text-align:center;display:inline-block;}
+.current_position p span{font-size:16px;}
+
+
+/*Works show作品展示*/
+.works_show{text-align:center;}
+.works_show ul{padding-left:10px;padding-bottom:20px;box-sizing:border-box;}
+.works_show li{width:22%; float:left; box-sizing:border-box; border:1px solid #E6E6E6;padding:5px 7px 20px; margin-right:1.2%;position:relative; z-index:1; }
+.new{ background:url(../images/works/pic_new.png) no-repeat right top; z-index:2; width:83px; height:83px; position:absolute; right:0px; top:0px;}
+.works_show img{width:220px; height:220px; overflow:hidden;}
+.works_show  h3{ word-wrap:break-word;word-break: normal; overflow:hidden; text-align:left;line-height:34px;font-size:14px;padding-left:5px;height:34px;}
+.works_show p{padding-left:5px;color:#757575;line-height:34px; clear:both;}
+.works_show p cite{ float:left;}
+.works_show p span{ text-align:right; float:right; display:inline-block;padding-right:5px;}
+.works_show  input{ border:none; background:#ff3333;width:80%; margin:0px auto;height:30px; line-height:30px; text-align:center;color:#fff; display:inline-block; margin-top:10px;font-size:16px; cursor:pointer;}
+.works_show input:hover{ background:#666;}
+
+/*Paging分页*/
+.Paging{text-align:center;height:40px;margin:2% 0px 5%;}
+.Paging a{ display:inline-block;padding:5px 10px; cursor:pointer;font-size:14px;}
+.Paging a.ellipsis{color:#00F;}
+.Paging a.current{ background:#ccc;color:#fff;border-radius:2px}
+
+
+
+.title{font-size:26px;color:#999;font-weight:normal;line-height:40px;height:40px;}
+
+
+/*表单基本信息*/
+.formstyle{width:80%; margin:0px auto;padding:2% 0%;font-size:14px;color:#333;}
+.formstyle p{padding-bottom:2%; overflow:hidden;}
+.formstyle p em{color:red;padding-right:2px;}
+.formstyle input{ color:#666;border:none; border:1px solid #ccc;height:30px; line-height:30px;padding:0px 5px;width:60%;}
+.formstyle  select{ border:none; border:1px solid #ccc;margin-right:15px;}
+.formstyle label{line-height:24px;width:20%; text-align:right; display:inline-block;padding-right:5px;}
+.formstyle p a{color:#4095ce;padding:0px 2px;}
+.checkbox{width:20px !important; border:none !important; margin-left:21%;}
+.radio{width:20px !important; border:none!important;}
+.submit{ border:none !important;color:#fff; background:#ff3333;width:120px !important;height:40px; line-height:40px; text-align:center;margin-left:21%;color:#fff !important;}
+.submit:hover{ background:#666;}
+
+.formstyle textarea{padding:5px;border:none; border:1px solid #ccc;text-align:left; line-height:24px;color:#666;}
+
+
+/*弹出层*/
+.pop{ -moz-box-shadow:1px 1px 1px #D7D7D7;-webkit-box-shadow:1px 1px 1px #D7D7D7;box-shadow:1px 1px 1px #D7D7D7;width:40%; background:#fff; position:absolute;top:120px;left:25%;padding:20px;text-align:center; z-index:105; overflow:hidden;}
+.pop p{padding:60px 0px; overflow:hidden; text-align:center;}
+.pop p label{width:20%;font-size:16px; text-align:right;}
+.pop span{ display:block; text-align:right;font-size:16px; cursor:pointer;}
+.pop span:hover{color:red;}
+.pop p input{border:none !important; border:1px solid #ccc !important;width:75%;line-height:30px;height:30px;}
+.submit1{ width:190px !important;height:40px !important;color:#fff;background:#ff3333;margin-top:20px; font-size:16px;}
+.submit1:hover{ background:#666;}

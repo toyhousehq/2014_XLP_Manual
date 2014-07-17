@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+/*左侧菜单*/
+.my_space_menu{width:190px;background:url(../images/my_space/menu_bg.png) no-repeat right top #EEEEEE;padding:14% 0px; overflow:hidden;height:440px;}
+.photo img{ float:left;padding-left:15%;}
+.photo dl{ float:left;padding-left:10px;}
+.photo dl dt{line-height:40px;font-size:18px;}
+.photo dl dd{line-hight:30px;color:#00F;font-size:14px; cursor:pointer;}
+.photo dl dd:hover{ color:red;}
+.my_space_menu ul{padding:20px 0px;width:78%; margin:0px auto;}
+.my_space_menu ul li{line-height:40px;padding-left:70px;}
+.my_space_menu ul li a{font-size:16px; }
+.my_space_menu ul li a.current{color:red;}
+.works{ background:url(../images/my_space/works.png) no-repeat 17% center;}
+.publish{ background:url(../images/my_space/publish.png) no-repeat 20px center;}
+.person{ background:url(../images/my_space/person.png) no-repeat 30px center;}
+
+
+.my_space_left{ float:left;width:20%; overflow:hidden;}
+.my_space_right{ float:right;width:76%;padding:3% 2% 5%; box-sizing:border-box;overflow:hidden;}
+
+
+/*个人资料*/
+.person_data{padding:0 2%; text-align:right;}
+.person_data td{font-size:14px;height:50px; line-height:30px;}
+.person_data input{float:left;border:none; border:1px solid #ccc;width:250px;height:30px; line-height:30px;padding:0px 5px; margin-left:15px; color:#999;}
+.person_data td p{padding-left:15px; overflow:hidden;}
+.person_data td img{padding-top:10px;padding-left:10px;}
+.person_data td textarea{border:none; border:1px solid #ccc;color:#999; float:left;padding:5px;width:610px;}
+.person_data td  span{ float:left; display:inline-block;width:80px; text-align:right; }
+
+
+/*作品*/
+.my_works li{margin-bottom:2%; border:1px solid #ccc;padding:1%; overflow:hidden; float:left;width:97%}
+.my_works li img{ float:left;padding-right:10px;}
+.my_works li dl{ float:left;width:60%; overflow:hidden;}
+.my_works li  dt{line-height:40px;font-size:16px;color:#333;}
+.my_works li  dd{line-height:26px;font-size:14px;}
+.my_works li  dd a{padding-left:5%;color:red;}
+.my_works li  dd a:hover{color:#666;}
+.no_works{line-height:60px;height:60px; text-align:center; vertical-align:middle;}
+.no_works img{ float:none !important;padding-top:16px; cursor:pointer;}
+.no_works a{line-height:55px;height:55px; display:inline-block;font-size:14px;}
+
+.operation{ float:right; vertical-align:middle; padding-top:35px;}
+.operation img{padding-right:30px !important; cursor:pointer;}
+
+
+/*发布作品*/
+.my_publish li{margin-bottom:2%;overflow:hidden; float:left;width:100%;}
+.my_publish li dl{ float:left;width:60%; overflow:hidden;height:84px;}
+.my_publish li{margin-bottom:2%;padding:1%; overflow:hidden;}
+.my_publish li img{ float:left;padding-right:10px;}
+.my_publish li dl  dt{line-height:26px;font-size:16px;color:#333;}
+.my_publish li  dl dt strong{ font-weight:normal;}
+.my_publish li  dl dt span{ text-align:right;padding-left:60px;font-size:14px; color:#666;}
+.my_publish li dl  dd{line-height:30px;font-size:14px;}
+.my_publish li dl  dd a{color:#666;}
+.handle{font-size:14px;width:20%; float:right;}
+.handle p{padding-top:15px; overflow:hidden;height:35px;}
+.handle em{ cursor:pointer; float:left; display:block;width:30%;height:35px;padding-left:22px; background:url(../images/my_space/edit1.png) no-repeat left 0px;padding-top:2px;}
+.handle span{ height:35px;cursor:pointer; display:block;width:30%;padding-left:22px; background:url(../images/my_space/delete.png) no-repeat left top; float:right;padding-top:4px;}
+.handle a{width:100%;;height:30px;line-height:30px; text-align:center; background:#ff3333; display:block;color:#fff;}
+.handle a:hover{ background:#666;}
+
+
+/*增加作品*/
+.addworks{width:100%;padding:0px !important; margin:0px !important;}
+.step_bg{text-align:center;padding-bottom:30px; }
+.step_bg ul{padding-left:150px;}
+.step_bg ul li{float:left;width:153px; background:url(../images/my_space/step_bg1.png) no-repeat 0px 3px; position:relative; height:45px; overflow:hidden;color:#999;}
+.step_bg ul li strong{ position:absolute; left:12px; top:19px;color:#fff;font-size:14px;}
+.step_bg ul li span{font-size:16px;}
+.step_bg ul li.cureent{background:url(../images/my_space/step_bg2.png) no-repeat -8px 6px !important;color:#FF3333;}
+.step_bg ul li.over{ background:url(../images/my_space/step_over.png) no-repeat 0px 10px !important;}
+.step_bg h2{text-align:center; font-weight:normal;padding-top:10px; background:url(../images/my_space/inf.png) no-repeat 120px 5px;font-size:16px;height:25px;}
+.addworks_de{width:100% !important;color:#333; padding:0px !important; }
+.addworks_de div em{color:red;}
+.addworks_de div label{ float:left;width:20%;}
+.addworks_de div ul{float:left;width:79%; overflow:hidden;}
+.addworks_de ul li{height:90px; line-height:90px;width:37%; text-align:center; float:left;padding:5px; padding-top:20px;background:#F4F4F4; margin-right:8px;color:#666;font-size:14px; overflow:hidden;}
+.addworks_de ul li img{padding-top:10px;}
+.addworks_de ul li span{ line-height:64px;padding-left:10px;font-size:12px;}
+.addImage { line-height:0px !important;}
+.addImage  img{ padding-top:0px !important;}
+.addImage b{ font-weight:normal;padding-top:12px; line-height:24px;padding-left:5px;}
+.addImage p{font-size:12px; text-align:center; line-height:24px; padding-left:0px !important;}
+.addworks_de  dl{width:90%; margin:0px auto; margin-bottom:15px;}
+.addworks_de dl dt{height:40px;font-size:18px;text-align:left;color:#333;background:url(../images/my_space/dt_bg1.jpg) no-repeat 0px 5px;padding-left:20px;width:30%; }
+.addworks_de dl dd{ clear:left;margin:0px auto; overflow:hidden;padding-bottom:10px;}
+.addworks_de dl dd em,.addworks_de dl dd h3{line-height:40px;font-size:16px; font-weight:normal;}
+.addworks_de dl dd  input{height:35px !important;width:535px !important;}
+.addworks_de dl dd  p{padding-left:100px; padding-bottom:0px !important;}
+.addworks_de dl dd  textarea{width:535px; }
+.addworks_de strong{width:100px; text-align:right; display:inline-block; float:left;font-size:16px; font-weight:normal;line-height:40px;}
+.make_step{  padding-right:0px;padding-top:20px;}
+.make_step em{ float:left;}
+.addstep{ padding:15px 15px 30px 15px;background:#F0F0F0;clear:both;overflow:hidden;margin-left:100px;width:510px;}
+.addstep_btn{ cursor:pointer;width:120px;height:30px; line-height:30px; background:#FF3333;color:#fff; text-align:center; display:inline-block; float:right; margin-right:50px;}
+.addstep_btn:hover{ background:#666;}
+.addstep h2{ font-size:16px; font-weight:normal;line-height:40px;}
+.addstep label{width:18% !important; text-align:left !important;padding:0px !important;}
+.addstep  ul{width:100% !important; text-align:center;padding-left:8px;}
+.addstep  ul li{ background:#fff !important; margin-right:13px !important;width:45% !important;}
+.addstep div{padding-top:20px;}
+.addstep textarea{ padding:0px !important;}
+
+.addworks_de dl dd textarea.area{width:98% !important;padding:1% !important; margin:0px auto;}
+.next{padding-top:10px;}

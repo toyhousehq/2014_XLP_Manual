@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+.require{padding:20px 0px; border-bottom:1px dashed #ccc;}
+.require dd{ line-height:34px; line-height:34px;color:#999;font-size:13px;}
+
+.end_time{text-align:center;padding:5% 0%;border-bottom:1px dashed #ccc;}
+.end_time p{ text-align:center;padding:2% 0px 1%;}
+.end_time p a{width:160px; height:40px; line-height:40px; display:inline-block; background:#ff3333;color:#fff; text-align:center; margin-right:2%;font-size:16px;}
+.end_time p a:hover{ background:#666;}
+
+.competion_works{padding:3% 0 1%;}
+.competion_works h2{ margin:1% 0 2%;}
+.competion_works img:hover{border:2px solid red;}

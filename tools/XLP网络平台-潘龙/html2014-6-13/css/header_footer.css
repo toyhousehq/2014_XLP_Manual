@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+.footer{ text-align:center;padding:2% 0%; background:#E6E6E6;width:100%;}
+.header{ padding:10px 0px;height:74px;}
+.logo{float:left;padding-top:8px;width:25%;overflow:hidden;}
+.nav{float:left;overflow:hidden;padding-left:5%;width:40%;padding-top:2.5%;height:24px; line-height:24px; overflow:hidden;}
+.nav a{display:inline-block;padding: 0% 4%; font-size:16px; font-weight:bold; text-align:right;}
+.nav a.current{ background:#ff3333; color:#fff;}
+.lan{ display:none; position:absolute; right:-120px; top:10px;width:120px;z-index:101; background:url(../images/san.jpg) no-repeat 0px 15px;padding-top:10px;text-align:center;padding-left:12px;}
+#lan{ display:none;}
+.lan p{ background:#666; margin-top:0px; height:30px; line-height:30px; text-align:center;}
+.lan p a{ color:#fff;}
+.lan p a:hover{ color:red;}
+.header_right{ width:25%; float:right; text-align:right;float:right;position:relative;padding-top:2.2%;overflow:hidden;}
+.header_right a{ display:inline-block;padding:0px 3%; font-size:14px; cursor:pointer;height:26px; line-height:26px;}
+.header_right a.current{color:red;}
+.space{margin-right:10px;background:#666 !important;color:#fff !important;line-height:28px !important; padding-bottom:3px !important;}
+.space:hover{background:#FF3333 !important;}
+.space.current{ background:#FF3333 !important;}
+
+.login{z-index:104; position:absolute;right:15px; top:70px; border:1px solid #D7D7D7; width:300px; background:#fff;padding:30px 0px; text-align:center; -moz-box-shadow:1px 1px 1px #D7D7D7;-webkit-box-shadow:1px 1px 1px #D7D7D7;box-shadow:1px 1px 1px #D7D7D7; display:none; }
+.login p{ text-align:center; color:#333; font-size:14px;}
+.login input{display:block;border:none; border:1px solid #ccc;width:80%;height:34px; line-height:34px;padding:0px 5px; margin:15px auto;}
+.login input.btn{ border:none; width:84%;background:#ff3333; color:#fff; cursor:pointer;font-size:14px;}
+.login input.btn:hover{background:#666666;}
+.header_right_bottom a{ color:#666;}
+

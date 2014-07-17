@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+.over{color:red;}
+
+.reg {padding-bottom:50px !important; overflow:hidden;}
+.reg img{padding-top:25px;}
+.pro{padding-bottom:0px !important;}
+.protocol{ border:1px solid #ccc;padding:10px;height:300px; overflow:auto; display:none;}
+.protocol h2{line-height:60px;font-weight:normal;font-size:18px; text-align:center;}
+.protocol h3{font-size:14px;line-height:30px;color:#666;}
+.protocol h3 b{color:red;}
+.protocol  p{font-size:12px;line-height:30px;}
+

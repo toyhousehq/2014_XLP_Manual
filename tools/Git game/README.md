@@ -1,0 +1,2 @@
+请下载使用Windows版本的`Git-1.9.0-preview20140217.exe`或Mac版本的`git-1.8.4.2-intel-universal-snow-leopard.dmg`，或前往http://git-scm.com/downloads下载。
+Please download `Git-1.9.0-preview20140217.exe` for Windows, or `git-1.8.4.2-intel-universal-snow-leopard.dmg` for Mac OSX. Or you can download the install files on http://git-scm.com/downloads.

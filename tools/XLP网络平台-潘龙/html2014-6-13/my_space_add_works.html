@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>我的空间-增加作品</title>
+<link href="css/global.css" rel="stylesheet" type="text/css" />
+<link href="css/common.css" rel="stylesheet" type="text/css" />
+<link href="css/my_space.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery.js"/></script>
+<script src="js/common.js"></script>
+<script src="js/my_space.js"></script>
+</head>
+<body>
+<iframe src="header.html" width="100%" frameborder="0" height="90" scrolling="no"></iframe>
+<div class="current_position">
+  <p>我的空间<em>-</em><span>作品</span><span>增加作品</span></p>
+</div>
+<div class="wra">
+  <div class="my_space_left"">
+    <div class="my_space_menu">
+      <div class="photo"> <img src="images/my_space/photo_default.png"/>
+        <dl>
+          <dt>陌陌</dt>
+          <dd id="modif_photo">修改头像</dd>
+        </dl>
+      </div>
+      <ul>
+        <li class="works "><a href="my_space_works.html" target="_parent">我的作品</a></li>
+        <li class="publish"><a href="my_space_publish.html" target="_parent">发布作品</a></li>
+        <li class="person"><a href="my_space_person.html" target="_parent" class="current">个人资料</a></li>
+      </ul>
+    </div>
+  </div>
+      <div class="my_space_right">
+        <div class="addworks ">
+          <div class="step_bg">
+            <ul>
+              <li ><strong>1</strong><span>作品背景</span></li>
+              <li class="cureent"><strong>2</strong><span>作品介绍</span></li>
+              <li class="over"><strong></strong><span>作品信息</span></li>
+            </ul>
+          </div>
+          <div class="step_main">
+            <div class="formstyle addworks_de  "  id="steptext1">
+              <form>
+                <p>
+                  <label><em>*</em>产品价值：</label>
+                  <input type="text" value="为什么要做这个产品，做这个项目的意义"/>
+                  <img src="images/right.jpg" /> </p>
+                <p>
+                  <label><em>*</em>产业分析：</label>
+                  <input type="text" value=""/>
+                  <img src="images/right.jpg" /> </p>
+                <p>
+                  <label><em>*</em>产品竞争力分析：</label>
+                  <input   type="password" value="与其他竞争产品的比较优势"/>
+                  <img src="images/right.jpg" /> </p>
+              
+                <p>  <label><em>*</em>项目介绍：</label>
+                    <textarea name="" cols="63" rows="6">
+                详细的项目介绍，包括项目的优势以及项目的意义
+               </textarea>
+                </p>
+                <div>
+                  <label><em>*</em>作品图片：</label>
+                  <ul>
+                    <li><img src="images/my_space/tup2.jpg"/><span>图片名称</span></li>
+                    <li class="addImage"> <img  src="images/my_space/add.png"/><b>增加图片</b>
+                      <p>图片要求规格：jpg/jpeg、gif、png；大于200x200像素；小于2MB</p>
+                    </li>
+                  </ul>
+                </div>
+                <p class="clear next">
+                  <input   type="button" value="下一步"  class="submit" id="step1"/>
+                </p>
+              </form>
+            </div>
+             <div class=" formstyle addworks_de   hidden   " id="steptext2">
+              <form>
+                <dl>
+                  <dt>产品功能</dt>
+                  <dd><p><textarea name=""  rows="3"></textarea></p></dd>
+                </dl>
+                <dl>
+                  <dt>制作信息</dt>
+                  <dd>
+                    <strong>原材料：</strong><input type="text" value=""/>
+                  </dd>
+                  <dd>
+                    <strong>工具：</strong><input type="text" value=""/>
+                  </dd>
+                  <dd class="make_step">
+                  <strong>制作步骤：</strong> <span class="addstep_btn">增加步骤</span>
+                    <div class="addstep">
+                      <h2>第一步</h2>
+                      <textarea name="" rows="3" class="area">步骤内容描述</textarea>
+                      <div>
+                        <h3>作品图片：</h3>
+                        <ul>
+                          <li><img src="images/my_space/tup2.jpg"/><span>图片名称</span></li>
+                          <li class="addImage"> <img  src="images/my_space/add.png"/><b>增加图片</b>
+                            <p>图片要求规格：jpg/jpeg、gif、png；大于200x200像素；小于2MB</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    
+                  </dd>
+                </dl>
+                <p class="clear next">
+                  <input   type="button" value="下一步"  class="submit" id="step2"/>
+                </p>
+              </form>
+            </div>
+            <div class=" formstyle addworks_de hidden  " id="steptext3">
+            <form>
+              <dl>
+                <dt>团队成员</dt>
+                <dd><strong>成员姓名：</strong><input type="text" value=""/></dd>
+                <dd><strong>成员分工：</strong> <input type="text" value=""/></dd>
+              </dl>
+              <dl>
+                <dt>完成时间</dt>
+                <dd>
+                  <strong> &nbsp;</strong>
+                  <input type="text" value=""/>
+                </dd>
+              </dl>
+              <dl>
+                <dt>文献及成果</dt>
+                <dd>
+                  <p><textarea name="" rows="3"></textarea></p>
+                </dd>
+              </dl>
+              <p class="clear next">
+                <input type="button" value="完成"  class="submit" id="step3"/>
+              </p>
+            </form>
+          </div>
+         </div>
+      </div>
+    </div>
+</div>
+<iframe src="footer.html" width="100%" frameborder="0" height="178"></iframe>
+</body>
+</html>

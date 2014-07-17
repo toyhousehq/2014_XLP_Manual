@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+
+.about h3{line-height:100px;font-size:18px; font-weight:normal; text-indent:2em;}
+.about ul{padding:4% 0;}
+.about ul li{ overflow:hidden;padding-bottom:3%; border-top:1px dashed #ccc;}
+.about ul li img{ float:left;width:120px; overflow:hidden;padding-right:10px;}
+.about ul li  p{ float:left; font-size:15px; line-height:36px;}
+.about h4{ line-height:40px;padding-top:20px; padding-left:32px;color:#666;font-size:16px; font-weight:normal;}

@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+.mark_main{padding:20px 0px; border-bottom:1px dashed #ccc;}
+.process ul{ text-align:center;padding:3% 2%;width:70%; margin:0px auto;}
+.process ul li{ float:left;width:160px;height:40px; line-height:40px; background:#666;color:#fff; position:relative; margin-right:5%;font-size:14px;padding:0px 2%;z-index:99;}
+.process ul li span{ position:absolute; left:-10px; top:-10px;width:36px; height:36px; background:url(../images/market/point1.png) no-repeat; line-height:36px;font-weight:bold;z-index:99;}
+.notes{ text-align:left;}
+.notes ul{width:80%;padding:3% 2%;width:70%; margin:0px auto;}
+.notes ul li{font-size:16px;line-height:40px; line-height:40px;}
